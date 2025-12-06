@@ -4,8 +4,6 @@
 
 ---
 
-### 🚀 扩展后的技能武器库 ( •̀ ω •́ )✧
-
 #### 🤖 机器人全栈 (Robotics Stack)
 * **核心系统:** 🦾 ROS 1 / 🌌 ROS 2 (Humble/Jazzy) & DDS 中间件
 * **自主移动:** 🧭 Nav2 (Behavior Trees) | 📍 SLAM (Cartographer/LIO-SAM)
