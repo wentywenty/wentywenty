@@ -2,17 +2,37 @@
 
 ### 🌱 我正在学习的技术 ( •̀ ω •́ )✧
 
-- 🤖 ROS&ROS2 机器人操作系统 
-  - 🧭 Nav2 自主导航框架
-- 📱 Android 开发 (Kotlin)
-  - 🔧 Magisk 模块开发
-- 💻 Windows 应用开发 (Win32) 
-- ⚡ Zephyr RTOS 嵌入式实时操作系统
-- 🦀 Rust 系统编程语言 
-- 📊 自动控制理论 
-- 🤯 机器学习与人工智能
-- 💡 PCB 电路设计
-- 🎨 3D 建模与设计 
+---
+
+### 🚀 扩展后的技能武器库 ( •̀ ω •́ )✧
+
+#### 🤖 机器人全栈 (Robotics Stack)
+* **核心系统:** 🦾 ROS 1 / 🌌 ROS 2 (Humble/Jazzy) & DDS 中间件
+* **自主移动:** 🧭 Nav2 (Behavior Trees) | 📍 SLAM (Cartographer/LIO-SAM)
+* **运动规划:** 🏗️ MoveIt 2 (机械臂规划)
+* **仿真模拟:** 🏟️ Gazebo / Ignition | 🕶️ Webots | 🚗 Carla
+* **通信协议:** 📡 MAVLink | 🔌 CAN Bus / CANopen
+
+#### 🧠 嵌入式与边缘计算 (Embedded & Edge)
+* **RTOS:** ⚡ Zephyr RTOS (Device Tree & Kconfig) | 🕒 FreeRTOS
+* **硬件架构:** 🐜 ARM Cortex-M (STM32) | 📶 ESP32
+* **系统编程:** 🦀 Rust (Embedded Hal) | 🇨 C/C++ (Modern C++14/17/20)
+* **Linux内核:** 🐧 Linux Kernel Modules | 🔧 Device Drivers
+* **Android底层:** 🔧 Magisk 模块 | 📱 AOSP 源码编译
+
+#### 👁️ 感知与人工智能 (Perception & AI)
+* **计算机视觉:** 📷 OpenCV | 📦 PCL (点云库)
+* **深度学习:** 🔥 PyTorch | 🧠 TensorRT (边缘端加速)
+* **控制算法:** 📉 PID 控制 | 🔮 卡尔曼滤波 (Kalman Filter) | 🕹️ MPC (模型预测控制)
+
+#### 🛠️ 工程化与开发工具 (DevOps & Tools)
+* **构建工具:** 🔨 CMake | 🐢 Bazel | 🐍 Catkin/Colcon
+* **容器化:** 🐳 Docker (ROS环境部署) | 📦 LXC
+* **版本控制:** 🐙 Git & GitHub Actions (CI/CD)
+* **桌面开发:** 💻 Windows API (Win32) | 🎨 Qt (跨平台GUI)
+* **硬件设计:** 💡 KiCad / Altium Designer (PCB) | 🧊 SolidWorks / Fusion 360
+
+---
 
 _致力于成为一名全栈工程师٩(◕‿◕｡)۶_
 
