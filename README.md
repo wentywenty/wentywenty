@@ -4,31 +4,40 @@
 
 ---
 
-#### 🤖 机器人全栈 (Robotics Stack)
-* **核心系统:** 🦾 ROS 1 / 🌌 ROS 2 (Humble/Jazzy) & DDS 中间件
-* **自主移动:** 🧭 Nav2 (Behavior Trees) | 📍 SLAM (Cartographer/LIO-SAM)
-* **运动规划:** 🏗️ MoveIt 2 (机械臂规划)
-* **仿真模拟:** 🏟️ Gazebo / Ignition | 🕶️ Webots | 🚗 Carla
-* **通信协议:** 📡 MAVLink | 🔌 CAN Bus / CANopen
+### 🔌 底层驱动 (Drivers & Low-Level)
+- **通信协议:** `EtherCAT` `CANopen` `DDS` `LwIP` `gs_usb`
+- **系统接口:** `WinUSB` `JNI`
+- **固件与引导:** `MCUBoot` `DFU`
+- **外设驱动:** `摄像头 (V4L2/MIPI)` `音频 (ALSA/I2S)`
 
-#### 🧠 嵌入式与边缘计算 (Embedded & Edge)
-* **RTOS:** ⚡ Zephyr RTOS (Device Tree & Kconfig) | 🕒 FreeRTOS
-* **硬件架构:** 🐜 ARM Cortex-M (STM32) | 📶 ESP32
-* **系统编程:** 🦀 Rust (Embedded Hal) | 🇨 C/C++ (Modern C++14/17/20)
-* **Linux内核:** 🐧 Linux Kernel Modules | 🔧 Device Drivers
-* **Android底层:** 🔧 Magisk 模块 | 📱 AOSP 源码编译
+### 🐧 系统构建 (System & Kernel)
+- **实时操作系统 (RTOS):** `Zephyr` `ThreadX` `RT-Thread`
+- **机器人系统:** `ROS 1` `ROS 2` `micro-ROS`
+- **系统底层:** `Linux Kernel Modules` `U-Boot` `ACPI/BIOS` `DTC (Device Tree)`
+- **安卓/移动端:** `Magisk 模块` `Auto.js`
 
-#### 👁️ 感知与人工智能 (Perception & AI)
-* **计算机视觉:** 📷 OpenCV | 📦 PCL (点云库)
-* **深度学习:** 🔥 PyTorch | 🧠 TensorRT (边缘端加速)
-* **控制算法:** 📉 PID 控制 | 🔮 卡尔曼滤波 (Kalman Filter) | 🕹️ MPC (模型预测控制)
+### 🧠 算法与仿真 (Algorithms & Simulation)
+- **规划控制:** `Nav2` `MoveIt 2` `Behavior Trees` `PID/MPC`
+- **仿真平台:** `NVIDIA Isaac Sim` `Webots` `MuJoCo` `Gazebo` `V-REP` `Simulink`
+- **感知处理:** `卡尔曼滤波 (Kalman)` `声源定位` `IMU 校准`
 
-#### 🛠️ 工程化与开发工具 (DevOps & Tools)
-* **构建工具:** 🔨 CMake | 🐢 Bazel | 🐍 Catkin/Colcon
-* **容器化:** 🐳 Docker (ROS环境部署) | 📦 LXC
-* **版本控制:** 🐙 Git & GitHub Actions (CI/CD)
-* **桌面开发:** 💻 Windows API (Win32) | 🎨 Qt (跨平台GUI)
-* **硬件设计:** 💡 KiCad / Altium Designer (PCB) | 🧊 SolidWorks / Fusion 360
+### 📝 编程语言 (Languages)
+- **系统编程:** `C` `C++` `Rust` `Verilog`
+- **脚本与工具:** `Python` `Lua` `Shell` `Matlab` `CMake` `Make`
+- **应用开发:** `Kotlin` `Dart` `JavaScript`
+
+### 🌍 芯片与平台 (Platforms)
+- **MCU/MPU:** `ST (STM32)` `ESP (Espressif)` `NXP` `Renesas (瑞萨)` `SF32` `Nordic`
+- **SoC/边缘计算:** `Rockchip (瑞芯微)` `Allwinner (全志)` `华为升腾 (Ascend)` `小米 (Xiaomi IoT)`
+- **FPGA:** `Xilinx` `Gowin (高云)`
+- **计算平台:** `x86 工控机` `QEMU`
+
+### 🛠️ 硬件与制造 (Hardware & Design)
+- **EDA/PCB:** `硬件电路设计` (PCB Design)
+- **机械制造:** `3D 打印` `结构设计`
+
+### 💻 交互界面 (GUI)
+- **框架:** `Qt` `LVGL` `MFC` `wxWidgets` `Jetpack Compose` `Flutter` `Win32 API`
 
 ---
 
